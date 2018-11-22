@@ -5,7 +5,7 @@ Create components with default styles passed to `style`.
 - 180 bytes
 - 0 dependencies
 
-## Example
+### Example
 
 ```js
 import shape from "styleshape";
