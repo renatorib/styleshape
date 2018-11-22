@@ -1,0 +1,25 @@
+{
+  "name": "styleshape",
+  "version": "0.1.0",
+  "source": "src/index.js",
+  "main": "dist/styleshape.js",
+  "umd:main": "dist/styleshape.js",
+  "module": "dist/styleshape.mjs",
+  "repository": "git@github.com:renatorib/styleshape.git",
+  "author": "Renato Ribeiro <renatoribroman@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "microbundle src/styleshape.js -o dist/ -f es,umd --no-sourcemap --target web"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "devDependencies": {
+    "microbundle": "^0.7.0",
+    "react": "^16.3.0"
+  },
+  "peerDependencies": {
+    "react": ">= 16.3.0"
+  }
+}

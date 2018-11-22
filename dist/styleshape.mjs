@@ -1,0 +1,1 @@
+import t from"react";export default function(e){return void 0===e&&(e="div"),function(n){return t.forwardRef(function(r,f){return t.createElement(e,Object.assign({},r,{ref:f,style:Object.assign({},"function"==typeof n?n(r):n,r.style)}))})}}
