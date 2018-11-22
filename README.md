@@ -1,7 +1,11 @@
 # styleshape
 
-**Only 180 bytes without any dependency.**  
 Create components with default styles passed to `style`.
+
+- 180 bytes
+- 0 dependencies
+
+## Example
 
 ```js
 import shape from "styleshape";
