@@ -1,6 +1,6 @@
 {
   "name": "styleshape",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "source": "src/index.js",
   "main": "dist/styleshape.js",
   "umd:main": "dist/styleshape.js",
